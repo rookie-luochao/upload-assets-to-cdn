@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/node": "^20.14.12",
     "vite": "^5.3.5",
-    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-dts": "^4.0.3",
     "vitest": "^2.0.4"
   }
 }
