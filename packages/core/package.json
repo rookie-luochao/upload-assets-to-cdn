@@ -1,0 +1,40 @@
+{
+  "name": "upload-assets-to-cdn",
+  "type": "module",
+  "description": "A powerful nodejs plugin which can help you to upload assets into cdn",
+  "version": "0.0.0",
+  "author": "rookie-luochao",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepare": "rm -rf ./test/src/test-files-copy/ ./upload-cdn-cache.json && mkdir -p ./test/src/test-files-copy && cp -r ./test/src/test-files/* ./test/src/test-files-copy/",
+    "test": "npm run prepare && npm run build && cd ./test && vitest run"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/rookie-luochao/upload-assets-to-cdn",
+  "bugs": "https://github.com/rookie-luochao/upload-assets-to-cdn/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rookie-luochao/upload-assets-to-cdn.git",
+    "directory": "packages/core"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "chalk": "4.1.2",
+    "globby": "11.0.4",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "vite": "^5.3.5",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^2.0.4"
+  }
+}

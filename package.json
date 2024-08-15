@@ -1,0 +1,31 @@
+{
+  "name": "upload-assets-to-cdn-monorepo",
+  "type": "module",
+  "private": true,
+  "description": "A powerful nodejs plugin which can help you to upload assets into cdn",
+  "packageManager": "pnpm@9.7.0",
+  "author": "rookie-luochao",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm --filter './packages/**' run build",
+    "test": "pnpm --filter './packages/**' run test",
+    "changeset": "changeset",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.7",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.1.3",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
+  }
+}
