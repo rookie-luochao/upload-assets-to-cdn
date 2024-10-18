@@ -26,7 +26,7 @@
     "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^8.0.0",
+    "typescript-eslint": "^8.10.0",
     "upload-assets-to-cdn": "workspace:*",
     "vite": "^5.4.0",
     "vite-plugin-require-transform": "^1.0.21"
