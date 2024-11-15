@@ -24,7 +24,7 @@
     "eslint": "^9.8.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.14",
-    "globals": "^15.9.0",
+    "globals": "^15.12.0",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.14.0",
     "upload-assets-to-cdn": "workspace:*",
