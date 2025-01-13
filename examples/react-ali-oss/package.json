@@ -22,7 +22,7 @@
     "@vitejs/plugin-react-swc": "^3.5.0",
     "ali-oss": "^6.21.0",
     "eslint": "^9.8.0",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.14.0",
     "typescript": "^5.6.3",
