@@ -27,7 +27,7 @@
     "dist"
   ],
   "dependencies": {
-    "chalk": "4.1.2",
+    "chalk": "5.4.1",
     "globby": "11.0.4",
     "sharp": "^0.33.5"
   },
