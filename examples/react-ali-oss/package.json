@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@types/node": "^22.8.7",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.0",
+    "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "ali-oss": "^6.21.0",
     "eslint": "^9.8.0",
