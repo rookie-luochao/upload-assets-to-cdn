@@ -11,13 +11,13 @@
     "upload-assets-to-cdn": "node ./upload-assets-to-cdn.config.mjs"
   },
   "dependencies": {
-    "react": "^19.0.0",
+    "react": "^19.1.0",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@types/node": "^22.8.7",
-    "@types/react": "^19.0.8",
+    "@types/react": "^19.1.2",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "ali-oss": "^6.21.0",
